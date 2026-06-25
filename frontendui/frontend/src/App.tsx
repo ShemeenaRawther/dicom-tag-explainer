@@ -27,7 +27,7 @@ type AnalyzeResponse = {
   groups?: DicomGroup[];
 };
 
-const API_URL = "http://localhost:5091/api/dicom/analyze";
+const API_URL = "https://dicom-tag-explainer.onrender.com/api/dicom/analyze";
 
 export default function App() {
   const [file, setFile] = useState<File | null>(null);
