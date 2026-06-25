@@ -26,7 +26,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: frontend/frontend
+        working-directory: frontendui/frontend
 
     steps:
       - name: Checkout
@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: frontend/frontend/package-lock.json
+          cache-dependency-path: frontendui/frontend/package-lock.json
 
       - name: Install packages
         run: npm ci
