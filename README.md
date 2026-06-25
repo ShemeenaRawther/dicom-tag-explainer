@@ -2,6 +2,10 @@
 
 A web application that reads DICOM files and presents metadata in a readable format.
 
+## Live Demo
+
+🌐 **Live demo:** [https://shemeenarawther.github.io/dicom-tag-explainer/]
+
 ## Features
 
 - Upload and analyze DICOM files
